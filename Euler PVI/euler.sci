@@ -9,7 +9,7 @@ function [VetX, VetY] = Euler(a, b, m, y0)
     Fxy = f(x, y)
     VetX(1) = x
     VetY(1) = y
-    printf(" i         x           y            Fxy\n")
+    printf(" i         x               y                Fxy\n")
     printf("%2d\t%f\t%f\t%f\n", 0, x, y, Fxy)
     for i = 1:m
        x = a + i*h
