@@ -1,3 +1,7 @@
+/*
+    Objetivo: Avaliar qual será o melhor plano de financiamento analisando a taxa de juros de cada um
+    Autor: Pierre Vieira
+*/
 exec('juros_secante.sci');
 a = 0.05;
 b = 1;
